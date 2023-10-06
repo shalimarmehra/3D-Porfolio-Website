@@ -1,10 +1,20 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import { motion } from "framer-motion";
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
+
+import React from "react";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className="relative w-full h-screen mx-auto">
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5`}
+      >
+        <div></div>
+      </div>
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
