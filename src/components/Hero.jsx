@@ -21,7 +21,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Shalimar Mehra</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I Develope 3D visuals, user <br className="sm:block hidden" />{" "}
+            I Develope 3D visuals, user <br className="sm:block hidden" />
             interfaces and web applicatios
           </p>
         </div>
@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-full border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev
+            <motion.div
               animate={{
                 y: [0, 24, 0],
               }}
