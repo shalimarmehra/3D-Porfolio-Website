@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { BallCanvas } from "./canvas";
@@ -16,4 +17,4 @@ const Tech = () => {
   );
 };
 
-export default Tech;
+export default SectionWrapper(Tech, "");

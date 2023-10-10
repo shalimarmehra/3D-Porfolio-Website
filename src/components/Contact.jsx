@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react-refresh/only-export-components */
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
