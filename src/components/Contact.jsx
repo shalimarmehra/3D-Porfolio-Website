@@ -7,7 +7,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+// lPTDPZZNuC-Ag8y1h
+// template_6f721bh
+// service_zhry62b
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -34,16 +36,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_zhry62b",
+        "template_6f721bh",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Shalimar Mehra",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "shalimarmehra892@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "lPTDPZZNuC-Ag8y1h"
       )
       .then(
         () => {
@@ -99,7 +101,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
