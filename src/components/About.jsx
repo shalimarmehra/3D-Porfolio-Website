@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
@@ -48,10 +49,23 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the standard dummy text ever since the
-        1500s, when an unknown printer took a galley of type and scrambled it to
-        make a type specimen book. It has survived not only five centuries,
+        <li> I'm a Shalimar Mehra, New Delhi, India.</li>
+        <li>
+          BCA Bachelor of Computer Application Graduate. Now pursuing MCA
+          (Master of Computer Application).
+        </li>
+        <li>
+          Also Completed MDCE Master Diploma in Computer Engineering from IICS
+          (Indian Institute of Computer Science).
+        </li>
+        <li>
+          Being a student or becoming a developer I love to work with C++, JAVA.
+        </li>
+        <li> I'm working on many Projects.</li>
+        <li>
+          The best part is I love to be exploring on Internet to acquire some
+          knowledge.
+        </li>
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
